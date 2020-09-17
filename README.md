@@ -1,21 +1,21 @@
 # 车牌检测角点变换识别
 
 ## 模型
-车牌检测模型：[https://share.weiyun.com/8QCIxQ5c](https://share.weiyun.com/8QCIxQ5c)
-车牌角点检测模型：[https://share.weiyun.com/utvA1lux](https://share.weiyun.com/utvA1lux)
-车牌识别模型：[链接：https://share.weiyun.com/eCoQE1H2](链接：https://share.weiyun.com/eCoQE1H2)
+车牌检测模型：[https://share.weiyun.com/8QCIxQ5c](https://share.weiyun.com/8QCIxQ5c) <br>
+车牌角点检测模型：[https://share.weiyun.com/utvA1lux](https://share.weiyun.com/utvA1lux) <br>
+车牌识别模型：[链接：https://share.weiyun.com/eCoQE1H2](链接：https://share.weiyun.com/eCoQE1H2) <br>
 下载好的模型放入到models目录中<br>
 ## 数据集
-下载CCPD数据集的部分数据 [https://share.weiyun.com/gPcIEz0v](https://share.weiyun.com/gPcIEz0v)
-解压放到项目data目录里面，这里只用到了CCPD数据集里面部分数据
+下载CCPD数据集的部分数据 [https://share.weiyun.com/gPcIEz0v](https://share.weiyun.com/gPcIEz0v) <br>
+解压放到项目data目录里面，这里只用到了CCPD数据集里面部分数据 <br>
  
 ## 运行
-设置detect.py里面source为图片路径，generate_crnn_trainset = False, 然后运行就可以
-$python detect.py
+设置detect.py里面source为图片路径，generate_crnn_trainset = False, 然后运行就可以 <br>
+$python detect.py <br>
 
 ## 数据预处理
-这个处理会生成车牌检测的数据集和角点检测的数据集，车牌识别的数据集会在后面生成
-$python processes.py
+这个处理会生成车牌检测的数据集和角点检测的数据集，车牌识别的数据集会在后面生成 <br>
+$python processes.py <br>
 
 ## 训练车牌检测模型
 配置voc.yaml，这里修改路径和类别以及类别数量就可以，类别数量和类别已经配置好了<br>
@@ -28,17 +28,15 @@ $python detect_plate.py --source ./data/stage1/test  --weights  ./runs/exp9/weig
 <img src="inference/plate_detection/1.jpg" width="39%" /><br>
 
 ## 训练车牌角点检测模型
-$python train_corner_detection.py
+$python train_corner_detection.py <br>
 ### 查看检测效果
-$python corner_detect.py
+$python corner_detect.py <br>
 #### 检测效果展示
 <img src="inference/corner_detection/1.jpg" width="39%" /> <img src="inference/corner_detection/2.jpg" width="39%" /><br>
 <i></i>
 <img src="inference/corner_detection/3.jpg" width="39%" /> <img src="inference/corner_detection/4.jpg" width="39%" /><br>
 <i></i>
 <img src="inference/corner_detection/5.jpg" width="39%" /> <img src="inference/corner_detection/6.jpg" width="39%" /><br>
-<i></i>
-<img src="inference/corner_detection/7.jpg" width="39%" /> <img src="inference/corner_detection/8.jpg" width="39%" /><br>
 <i></i>
 ## 训练车牌文字识别模型
 ### 生成训练数据
@@ -83,4 +81,6 @@ $python detect.py
 <img src="inference/whole_detection/3.jpg" width="39%" /> <img src="inference/whole_detection/4.jpg" width="39%" /><br>
 <i></i>
 <img src="inference/whole_detection/5.jpg" width="39%" /> <img src="inference/whole_detection/6.jpg" width="39%" /><br>
+<i></i>
+<img src="inference/whole_detection/7.jpg" width="39%" /> <img src="inference/whole_detection/8.jpg" width="39%" /><br>
 <i></i>
