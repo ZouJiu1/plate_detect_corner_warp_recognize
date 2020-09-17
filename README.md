@@ -76,11 +76,12 @@ $cd yolov5
 $python detect.py
 
 #### 整体识别效果展示
-<img src="inference/whole_detection/1.jpg" width="39%" /> <img src="inference/whole_detection/2.jpg" width="39%" /><br>
-<i></i>
-<img src="inference/whole_detection/3.jpg" width="39%" /> <img src="inference/whole_detection/4.jpg" width="39%" /><br>
-<i></i>
-<img src="inference/whole_detection/5.jpg" width="39%" /> <img src="inference/whole_detection/6.jpg" width="39%" /><br>
-<i></i>
-<img src="inference/whole_detection/7.jpg" width="39%" /> <img src="inference/whole_detection/8.jpg" width="39%" /><br>
+<img src="inference/whole_detection/1.jpg" width="70%" />
+<img src="inference/whole_detection/2.jpg" width="70%" />
+<img src="inference/whole_detection/3.jpg" width="70%" />
+<img src="inference/whole_detection/4.jpg" width="70%" />
+<img src="inference/whole_detection/5.jpg" width="70%" />
+<img src="inference/whole_detection/6.jpg" width="70%" />
+<img src="inference/whole_detection/7.jpg" width="70%" />
+<img src="inference/whole_detection/8.jpg" width="70%" />
 <i></i>
