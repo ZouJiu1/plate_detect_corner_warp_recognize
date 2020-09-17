@@ -85,3 +85,7 @@ $python detect.py
 <img src="inference/whole_detection/7.jpg" width="70%" />
 <img src="inference/whole_detection/8.jpg" width="70%" />
 <i></i>
+License
+~~~~~~~
+`Free software: MIT license <https://github.com/shiheyingzhe/plate_detect_corner_warp_recognize/LICENSE>`_
+Citation: ZouJiu. plate_detect_corner_warp_recognize. Git code (2020). https://github.com/shiheyingzhe/plate_detect_corner_warp_recognize
