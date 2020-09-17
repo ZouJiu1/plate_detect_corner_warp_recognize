@@ -3,7 +3,7 @@
 ## 模型
 车牌检测模型：[https://share.weiyun.com/8QCIxQ5c](https://share.weiyun.com/8QCIxQ5c) <br>
 车牌角点检测模型：[https://share.weiyun.com/utvA1lux](https://share.weiyun.com/utvA1lux) <br>
-车牌识别模型：[链接：https://share.weiyun.com/eCoQE1H2](链接：https://share.weiyun.com/eCoQE1H2) <br>
+车牌识别模型：[https://share.weiyun.com/eCoQE1H2](https://share.weiyun.com/eCoQE1H2) <br>
 下载好的模型放入到models目录中<br>
 ## 数据集
 下载CCPD数据集的部分数据 [https://share.weiyun.com/gPcIEz0v](https://share.weiyun.com/gPcIEz0v) <br>
