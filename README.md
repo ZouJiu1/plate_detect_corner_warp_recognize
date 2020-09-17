@@ -89,7 +89,7 @@ $python detect.py
 ## Reference <br>
 1. yolov5 https://github.com/ultralytics/yolov5   <br>  
 2. https://github.com/szad670401/Rubost-Chinese-License-Plate-Locate-Using-LBP-adaboost-with-CNN-regression   <br>  
-3. plate_detect_corner_warp_recognize https://github.com/Sierkinhane/CRNN_Chinese_Characters_Rec   <br>     
+3. CRNN_Chinese_Characters_Rec https://github.com/Sierkinhane/CRNN_Chinese_Characters_Rec   <br>     
 
 License
 ~~~~~~~
