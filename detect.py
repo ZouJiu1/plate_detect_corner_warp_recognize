@@ -136,7 +136,7 @@ def detect(save_img=False):
 
     plate_detect_model = os.path.join(pwd, 'models', 'best.pt')
     corner_detect_model = os.path.join(pwd, 'models', 'corner_epoch_227_valoss_0.000117.pt')
-
+    recognition_crnn_model = os.path.join(pwd, 'models', 'checkpoint_123_acc_0.9940.pth')
     corner_model = cornernet()
     corner_model.eval()  # 验证模式
 
@@ -144,7 +144,6 @@ def detect(save_img=False):
         opt.output, opt.weights, opt.view_img, opt.save_txt, opt.img_size
     generate_crnn_trainset = False
     if generate_crnn_trainset:
-        recognition_crnn_model = os.path.join(pwd, 'models', 'checkpoint_123_acc_0.9940.pth')
         source = os.path.join(pwd, 'CCPD2019', 'ccpd_base')
         save_path_train = os.path.join(pwd,'data','crnn','warpimg')
         save_path_test = os.path.join(pwd,'data','crnn','test')

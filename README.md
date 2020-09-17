@@ -38,7 +38,8 @@ $python corner_detect.py
 <i></i>
 <img src="inference/corner_detection/5.jpg" width="39%" /> <img src="inference/corner_detection/6.jpg" width="39%" /><br>
 <i></i>
-
+<img src="inference/corner_detection/7.jpg" width="39%" /> <img src="inference/corner_detection/8.jpg" width="39%" /><br>
+<i></i>
 ## 训练车牌文字识别模型
 ### 生成训练数据
 设置好车牌检测模型路径和车牌角点检测模型路径，plate_detect_model=*，corner_detect_model=*，generate_crnn_trainset = True <br>
