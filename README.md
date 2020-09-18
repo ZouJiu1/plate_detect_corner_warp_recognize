@@ -56,6 +56,7 @@ python setup.py install
 cd ../
 ```
 验证warp-ctc是否安装成功，能正常导入包就安装好了<br>
+最后反复没有安装成功，可以修改文件CRNN_Chinese_Characters_Rec\train.py，注释掉第73行和13行，去掉72行的#号，这样也可以使用CTCloss
 ```python
 import torch
 from warpctc_pytorch import CTCLoss
@@ -84,11 +85,16 @@ $python detect.py
 <img src="inference/whole_detection/6.jpg" width="70%" />
 <img src="inference/whole_detection/7.jpg" width="70%" />
 <img src="inference/whole_detection/8.jpg" width="70%" />
+
+#### 有难度的样本
+<img src="inference/whole_detection/9.jpg" width="70%" />
+<img src="inference/whole_detection/10.jpg" width="70%" />
+<img src="inference/whole_detection/11.jpg" width="70%" />
 <i></i>
 
 ## Reference <br>
-1. yolov5 https://github.com/ultralytics/yolov5   <br>  
-2. https://github.com/szad670401/Rubost-Chinese-License-Plate-Locate-Using-LBP-adaboost-with-CNN-regression   <br>  
+1. https://github.com/szad670401/Rubost-Chinese-License-Plate-Locate-Using-LBP-adaboost-with-CNN-regression   <br>  
+2. yolov5 https://github.com/ultralytics/yolov5   <br>  
 3. CRNN_Chinese_Characters_Rec https://github.com/Sierkinhane/CRNN_Chinese_Characters_Rec   <br>     
 
 License

@@ -149,14 +149,14 @@ def detect(save_img=False):
         save_path_test = os.path.join(pwd,'data','crnn','test')
         ftrain = open(os.path.join(pwd, 'CRNN_Chinese_Characters_Rec', 'lib', 'train_own.txt'), 'w')
         ftest = open(os.path.join(pwd, 'CRNN_Chinese_Characters_Rec', 'lib', 'test_own.txt'), 'w')
-        if not os.path.exists(save_path_train):
+        if not os.path.exists(save_path_train): 
             os.makedirs(save_path_train)
         if not os.path.exists(save_path_test):
             os.makedirs(save_path_test)
         all_length = len(os.listdir(source))
     else:
-        source = os.path.join(pwd, 'data', 'stage1', 'test')
-        # source = r'/data/tmp'
+        # source = os.path.join(pwd, 'data', 'stage1', 'test')
+        source = r'/data/CCPD2019/ccpd_challenge'
     print('image\' length is: ', len(os.listdir(source)))
     webcam = source.isnumeric() or source.startswith('rtsp') or source.startswith('http') or source.endswith('.txt')
 

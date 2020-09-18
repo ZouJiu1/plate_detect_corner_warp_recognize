@@ -10,8 +10,8 @@ import lib.utils.utils as utils
 from lib.dataset import get_dataset
 from lib.core import function
 import lib.config.alphabets as alphabets
-from lib.utils.utils import model_info
 from warpctc_pytorch import CTCLoss
+from lib.utils.utils import model_info
 from tensorboardX import SummaryWriter
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
