@@ -8,6 +8,7 @@
 ## 数据集
 下载CCPD数据集的部分数据 [https://share.weiyun.com/gPcIEz0v](https://share.weiyun.com/gPcIEz0v) <br>
 解压放到项目data目录里面，这里只用到了CCPD数据集里面部分数据 <br>
+CCPD数据集原始链接：[https://github.com/detectRecog/CCPD](https://github.com/detectRecog/CCPD)
  
 ## 运行
 设置detect.py里面source为图片路径，generate_crnn_trainset = False, 然后运行就可以 <br>
