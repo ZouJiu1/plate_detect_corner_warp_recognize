@@ -1,12 +1,12 @@
 # 车牌检测角点变换识别
 
 ## 模型
-车牌检测模型：[https://share.weiyun.com/8QCIxQ5c](https://share.weiyun.com/8QCIxQ5c) <br>
-车牌角点检测模型：[https://share.weiyun.com/utvA1lux](https://share.weiyun.com/utvA1lux) <br>
-车牌识别模型：[https://share.weiyun.com/eCoQE1H2](https://share.weiyun.com/eCoQE1H2) <br>
+车牌检测模型：[https://www.aliyundrive.com/s/V3bJC5XzT8u](https://www.aliyundrive.com/s/V3bJC5XzT8u) <br>
+车牌角点检测模型：[https://www.aliyundrive.com/s/R1B8eTxi6eV](https://www.aliyundrive.com/s/R1B8eTxi6eV) <br>
+车牌识别模型：[https://www.aliyundrive.com/s/2C6YGYSLfye](https://www.aliyundrive.com/s/2C6YGYSLfye) <br>
 下载好的模型放入到models目录中<br>
 ## 数据集
-下载CCPD数据集的部分数据 [https://share.weiyun.com/gPcIEz0v](https://share.weiyun.com/gPcIEz0v) <br>
+下载CCPD数据集的部分数据 [https://www.aliyundrive.com/s/TEUuhFbJDbY](https://www.aliyundrive.com/s/TEUuhFbJDbY) <br>
 解压放到项目data目录里面，这里只用到了CCPD数据集里面部分数据 <br>
 CCPD数据集原始链接：[https://github.com/detectRecog/CCPD](https://github.com/detectRecog/CCPD)
  
@@ -21,7 +21,7 @@ $python processes.py <br>
 ## 训练车牌检测模型
 配置voc.yaml，这里修改路径和类别以及类别数量就可以，类别数量和类别已经配置好了<br>
 配置yolov5l.yaml这里修改类别数量就好，已经修改好了的nc:1<br>
-下载darknet53.conv.74模型放入到weights目录中[https://share.weiyun.com/8DBgEbZU](https://share.weiyun.com/8DBgEbZU) <br>
+下载darknet模型放入到weights目录中[https://www.aliyundrive.com/s/UHbvqH825UK](https://www.aliyundrive.com/s/UHbvqH825UK) <br>
 $python train.py --data voc.yaml --cfg yolov5l.yaml --weights  ./weights/darknet53.conv.74  --batch-size 16 <br>
 ### 查看检测效果 
 $python detect_plate.py --source ./data/stage1/test  --weights  ./runs/exp9/weights/best.pt --conf 0.4 <br>
